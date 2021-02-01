@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.radio input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.radio input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+body {
+	background-color: ivory;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 3%;
+	text-align: center;
+}
+
+.search-functions {
+	padding: 5px;
+	margin-left: 10%;
+	margin-top: 20px;
+	width: 250px;
+	display: flex; 
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+}
+
+.search-functions label {
+	display: flex;
+	text-align: center;
+	font-size: 15px;
+	white-space: wrap;
+}
+
+.search-bar-label {
+	margin-bottom: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+
+table tr:first-child {
+	background-color: fuschia;
+}
+
+table th {
+	font-weight: bold;
+}
+
+h1 {
+	letter-spacing: 3px;
+	margin-bottom: 2%;
+	text-transform: uppercase;
+}
+
+.search-bar {
+	border-radius: 1px;
+	margin-left: 10px;
+	width: 50%;
+    clear: both;
+    float: left;
+    margin-right: 5px;
+}
+
+table td {
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	width: 30%;
+}
+
+.header-button {
+	background-color: mediumpurple;
+	border: 1px solid black;
+	border-radius: 7px;
+	color: darkgoldenrod;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 45%;
+}
+
+
+
+.button {
+	background-color: cadetblue;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: wheat;
+	font-size: 12px;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none;
+	width: 30%;
+}
+
+.radio input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+table th,
+table td {
+	padding: 3px;
+}
+
+.button:active {
+	background-color: dark-gray;
+	color: white;
+}
+
+.radio {
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: darkkhaki;
+  border-radius: 25%;
+}
